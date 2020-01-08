@@ -46,7 +46,20 @@ function deleteTodo(position) {
   todos.splice(position, 1)
 }
 
-addToDo('new todo')
-changeTodo(0, 'changed again')
-deleteTodo(3)
-displayToDos(todos)
+// addToDo('new todo')
+// changeTodo(0, 'changed again')
+// deleteTodo(3)
+// displayToDos(todos)
+
+// Observations- Scope of Variables
+// If you're inside a function, you can look out and see data, but the opposite isn't true. If you're outside, you can't look in.
+
+var myName = 'Omi';
+
+function sayName() {
+  var secret = 'watchandcode';
+  console.log(myName);
+}
+
+sayName(); // 'Omi'
+console.log(secret); ReferenceError: secret is not defined

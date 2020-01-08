@@ -44,3 +44,10 @@ Practical JavaScript Course from Watch and Code by Gordon Zhu
 2. It should have a function to add todos
 3. It should have a function to change todos
 4. It should have a function to delete todos
+
+## Interlude - Functions and variables
+- If you're inside a function, you can look out and see data, but the opposite isn't true. If you're outside, you can't look in.
+- Circles and arrows: can draw arrow from inside a function to outside but not the other way around.
+
+## Interlude - editor setup
+- Visual Studio Code
