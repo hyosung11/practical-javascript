@@ -38,3 +38,9 @@ Practical JavaScript Course from Watch and Code by Gordon Zhu
 3. It should have a way to add new todos
 4. It should have a way to change a todo
 5. It should have a way to delete a todo
+
+## Version 2 - Functions
+1. It should have a funciton to display todos
+2. It should have a function to add todos
+3. It should have a function to change todos
+4. It should have a function to delete todos
