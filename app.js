@@ -23,28 +23,28 @@
 // VERSION 2 - FUNCTIONS
 
 // It should have a function to display todos.
-var todos = ['item1', 'item2', 'item3'];
-
-function displayToDos() {
-  console.log('My todos:', todos);
-}
+// var todos = ['item1', 'item2', 'item3'];
+//
+// function displayToDos() {
+//   console.log('My todos:', todos);
+// }
 
 // It should have a function to add todos.
-function addToDo(todo) {
-  todos.push(todo);
-  displayToDos();
-}
+// function addToDo(todo) {
+//   todos.push(todo);
+//   displayToDos();
+// }
 
 // It should have a function to change todos.
-function changeTodo(position, newValue) {
-  todos[position] = newValue;
-  displayToDos();
-}
+// function changeTodo(position, newValue) {
+//   todos[position] = newValue;
+//   displayToDos();
+// }
 
 // It should have a function to delete todos.
-function deleteTodo(position) {
-  todos.splice(position, 1)
-}
+// function deleteTodo(position) {
+//   todos.splice(position, 1)
+// }
 
 // addToDo('new todo')
 // changeTodo(0, 'changed again')
@@ -54,12 +54,32 @@ function deleteTodo(position) {
 // Observations- Scope of Variables
 // If you're inside a function, you can look out and see data, but the opposite isn't true. If you're outside, you can't look in.
 
-var myName = 'Omi';
+// var myName = 'Omi';
+//
+// function sayName() {
+//   var secret = 'watchandcode';
+//   console.log(myName);
+// }
+//
+// sayName(); // 'Omi'
+// console.log(secret); ReferenceError: secret is not defined
 
-function sayName() {
-  var secret = 'watchandcode';
-  console.log(myName);
+// Objects
+
+// var myComputer = {
+//   operatingSystem: 'mac',
+//   screenSize: '27 inches',
+//   purchaseYear: 2017
+// }
+//
+// console.log(myComputer.purchaseYear);
+
+// Objects and functions
+var omi = {
+  name: 'Omi',
+  sayName: function() {
+    console.log(this.name);
+  }
 }
 
-sayName(); // 'Omi'
-console.log(secret); ReferenceError: secret is not defined
+omi.sayName()
