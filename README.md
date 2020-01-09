@@ -67,3 +67,30 @@ Practical JavaScript Course from Watch and Code by Gordon Zhu
 3. It should have an addTodos method
 4. It should have a changeTodo method
 5. It should have a deleteTodo method
+
+## Interlude - Success is the process
+- Ability = Process * Time
+
+- How to be great at asking coding questions https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603
+
+- debugger https://www.youtube.com/watch?v=zv_aOlH8S_o&feature=youtu.be
+
+```JavaScript
+// Debugger
+function incrementNumber() {
+  debugger;
+  var currentNumber = 0;
+  for (var i = 0; i < 3; i++) {
+    currentNumber++;
+  }
+}
+
+incrementNumber();
+```
+
+## Version 4 - Booleans
+
+### V4 Requirements
+- todoList.addTodo should add objects
+- todoList.changeTodo should change the todoText property
+- todoList.togglecComplete should change the completed property
