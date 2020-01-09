@@ -94,3 +94,12 @@ incrementNumber();
 - todoList.addTodo should add objects
 - todoList.changeTodo should change the todoText property
 - todoList.togglecComplete should change the completed property
+
+## Version 5 - Loops of Logic
+- The for loop
+- Looping over arrays
+
+### Requirements
+- .displayTodos should show .todoText
+- .displayTodos should tell you if .todos is empty
+- .displayTodos should show .completed
