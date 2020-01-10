@@ -118,6 +118,11 @@ var todoList = {
       for (var i = 0; i < totalTodos; i++) {
         this.todos[i].completed = false;
       }
+    // Case 2: Otherwise, make everything true.
+    } else {
+      for (var i = 0; i < totalTodos; i++) {
+        this.todos[i].completed = true;
+      }
     }
   }
 };
@@ -125,7 +130,10 @@ var todoList = {
 todoList.addTodo('first');
 todoList.addTodo('second');
 todoList.addTodo('third');
-todoList.addTodo('fourth');
-todoList.addTodo('fifth');
+todoList.toggleAll();
 todoList.toggleCompleted(0);
+// todoList.toggleCompleted(1);
+//
+// todoList.toggleCompleted(2)
+// todoList.toggleAll();
 todoList.displayTodos()
