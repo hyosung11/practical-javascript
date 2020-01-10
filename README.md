@@ -103,3 +103,9 @@ incrementNumber();
 - .displayTodos should show .todoText
 - .displayTodos should tell you if .todos is empty
 - .displayTodos should show .completed
+
+## Version 6 - Thinking in Code
+
+### Requirements http://todomvc.com/examples/vanillajs/
+- .toggleAll: If everything's true, make everything false
+- .toggleAll: Otherwise, make everyhing true
