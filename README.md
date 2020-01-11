@@ -109,3 +109,5 @@ incrementNumber();
 ### Requirements http://todomvc.com/examples/vanillajs/
 - .toggleAll: If everything's true, make everything false
 - .toggleAll: Otherwise, make everyhing true
+
+## Version 7 - HTML and the DOM
