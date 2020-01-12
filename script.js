@@ -3,7 +3,6 @@
 const todoList = {
   todos: [],
   displayTodos: function() {
-    debugger;
     if (this.todos.length === 0) {
       console.log('Your todo list is empty!');
     } else {
@@ -71,5 +70,10 @@ const handlers = {
   },
   toggleAll: function() {
     todoList.toggleAll();
+  },
+  addTodo: function() {
+    const addTodoTextInput = document.getElementById('addTodoTextInput');
+    todoList.addTodo(addTodoTextInput.value);
+    addTodoTextInput.value = '';
   }
 };

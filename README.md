@@ -139,3 +139,10 @@ incrementNumber();
 
 ## Version 8 - Getting data from inputs
 - our first refactoring
+- refactoring is a part of the development process and happens all the time in production.
+
+### V8 Requirements
+- It should have working controls for .addTodo
+- It should have working controls for .changeTodo
+- It should have working controls for .deleteTodo
+- It should have working controls for .toggleCompleted 

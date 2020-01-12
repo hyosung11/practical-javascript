@@ -7,8 +7,15 @@
   <body>
     <h1>Todo List</h1>
 
-    <button onClick="handlers.displayTodos()">Display Todos</button>
-    <button onClick="handlers.toggleAll()">Toggle All</button>
+    <div>
+      <button onClick="handlers.displayTodos()">Display Todos</button>
+      <button onClick="handlers.toggleAll()">Toggle All</button>
+    </div>
+
+    <div>
+      <button onClick="handlers.addTodo()">Add</button>
+      <input id="addTodoTextInput" type="text">
+    </div>
 
     <script src="script.js" charset="utf-8"></script>
   </body>
