@@ -134,4 +134,8 @@ incrementNumber();
 - cllicking "Toggle all" should run todoList.toggleAll.
 
 ## Interlude - Don't wonder about things the debugger can tell you
-- Use the debugger all the time 
+- Use the debugger all the time
+- Focus on understanding, not building from scratch
+
+## Version 8 - Getting data from inputs
+- our first refactoring

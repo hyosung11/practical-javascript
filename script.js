@@ -22,7 +22,7 @@ const todoList = {
       todoText: todoText,
       completed: false
     });
-    // this.displayTodos();
+    this.displayTodos();
   },
   changeTodo: function(position, todoText) {
     this.todos[position].todoText = todoText;
@@ -30,12 +30,12 @@ const todoList = {
   },
   deleteTodo: function(position) {
     this.todos.splice(position, 1);
-    // this.displayTodos();
+    this.displayTodos();
   },
   toggleCompleted: function(position) {
     var todo = this.todos[position];
     todo.completed = !todo.completed;
-    // this.displayTodos();
+    this.displayTodos();
   },
   toggleAll: function() {
     var totalTodos = this.todos.length;
@@ -65,13 +65,11 @@ const todoList = {
   }
 };
 
-// todoList.addTodo('first');
-// todoList.addTodo('second');
-// todoList.addTodo('third');
-// todoList.toggleAll();
-// // todoList.toggleCompleted(0);
-// // todoList.toggleCompleted(1);
-// //
-// // todoList.toggleCompleted(2)
-// // todoList.toggleAll();
-// todoList.displayTodos()
+const handlers = {
+  displayTodos: function() {
+    todoList.displayTodos();
+  },
+  toggleAll: function() {
+    todoList.toggleAll();
+  }
+};
