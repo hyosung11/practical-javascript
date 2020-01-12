@@ -1,6 +1,6 @@
 // Version 5 - Loops of Logic
 
-var todoList = {
+const todoList = {
   todos: [],
   displayTodos: function() {
     debugger;
@@ -8,7 +8,7 @@ var todoList = {
       console.log('Your todo list is empty!');
     } else {
       console.log('My Todos:');
-      for (var i = 0; i < this.todos.length; i++) {
+      for (let i = 0; i < this.todos.length; i++) {
         if (this.todos[i].completed === true) {
           console.log('(x)', this.todos[i].todoText);
         } else {
@@ -42,7 +42,7 @@ var todoList = {
     var completedTodos = 0;
 
     // Get number of completed todos.
-    for (var i = 0; i < totalTodos; i++) {
+    for (let i = 0; i < totalTodos; i++) {
       if (this.todos[i].completed === true) {
         completedTodos++;
       }
@@ -51,15 +51,17 @@ var todoList = {
     // Case 1: If everything's true, make everything false.
     if (completedTodos === totalTodos) {
       // make everything false
-      for (var i = 0; i < totalTodos; i++) {
+      for (let i = 0; i < totalTodos; i++) {
         this.todos[i].completed = false;
       }
     // Case 2: Otherwise, make everything true.
     } else {
-      for (var i = 0; i < totalTodos; i++) {
+      for (let i = 0; i < totalTodos; i++) {
         this.todos[i].completed = true;
       }
     }
+
+    this.displayTodos();
   }
 };
 
