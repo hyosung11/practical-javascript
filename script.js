@@ -75,13 +75,3 @@ const todoList = {
 // // todoList.toggleCompleted(2)
 // // todoList.toggleAll();
 // todoList.displayTodos()
-
-
-var myHouse = {
-  color: 'blue'
-}
-
-var color = myHouse.color;
-color = 'red';
-
-console.log(myHouse);

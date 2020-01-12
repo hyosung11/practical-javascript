@@ -148,3 +148,13 @@ omi.sayName()
 //
 // todoList.addTodo('boolean testing');
 // todoList.toggleCompleted(0);
+
+
+var myHouse = {
+  color: 'blue'
+}
+
+var color = myHouse.color;
+color = 'red';
+
+console.log(myHouse);
