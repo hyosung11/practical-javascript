@@ -108,4 +108,29 @@ incrementNumber();
 
 ### Requirements http://todomvc.com/examples/vanillajs/
 - .toggleAll: If everything's true, make everything false
-- .toggleAll: Otherwise, make everyhing true
+- .toggleAll: Otherwise, make everything true
+
+## Interlude - Data types and comparisons
+
+- Objects (can be as complex as you want)
+  - {} // todoList, arrays, functions
+
+- Primitives (building blocks)
+  - string
+  - number
+  - boolean
+  - undefined
+  - null
+
+### Comparison with primitives (just like math class)
+
+### Comparisons with objects (location in memory)
+
+### How are primitives and objects stored inside of variables?
+
+## Version 7 - HTML and the DOM
+- there should be a "Display todos" button and a "Toggle all" button in the app.
+- clicking "Display todos" should run todoList.displayTodos.
+- cllicking "Toggle all" should run todoList.toggleAll.
+
+## Interlude - Don't wonder about things the debugger can tell you
