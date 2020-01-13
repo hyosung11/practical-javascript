@@ -152,4 +152,6 @@ incrementNumber();
 ### V9 Requirements
 - There should be an li element for every todo
 - Each li element should contain .todoText
-- Each li element should show .completed 
+- Each li element should show .completed
+
+### Interlude - Functions inside of functions
