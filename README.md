@@ -154,7 +154,7 @@ incrementNumber();
 - Each li element should contain .todoText
 - Each li element should show .completed
 
-### Interlude - Functions inside of functions
+## Interlude - Functions inside of functions
 - runWithDebugger()
 - setTimeout()
 - forEach()
@@ -183,3 +183,5 @@ incrementNumber();
 ### V11 Requirements
 - todoList.toggleAll should use forEach
 - view.displayTodos should use forEach
+
+## Interlude - Understanding "this"
