@@ -145,4 +145,11 @@ incrementNumber();
 - It should have working controls for .addTodo
 - It should have working controls for .changeTodo
 - It should have working controls for .deleteTodo
-- It should have working controls for .toggleCompleted 
+- It should have working controls for .toggleCompleted
+
+## Version 8 - Escape from the console
+
+### V9 Requirements
+- There should be an li element for every todo
+- Each li element should contain .todoText
+- Each li element should show .completed 
