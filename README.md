@@ -174,3 +174,12 @@ incrementNumber();
 - Each li should have an id that has the todo position
 - Delete buttons should have access to the todo id
 - Clicking delete should update todoList.todos and the DOM
+
+#### Event Delegation
+- What is DOM Event delegation? https://stackoverflow.com/questions/1687296/what-is-dom-event-delegation
+
+## Version 11 - Destroy all for loops
+
+### V11 Requirements
+- todoList.toggleAll should use forEach
+- view.displayTodos should use forEach
