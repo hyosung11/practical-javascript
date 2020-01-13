@@ -155,3 +155,13 @@ incrementNumber();
 - Each li element should show .completed
 
 ### Interlude - Functions inside of functions
+- runWithDebugger()
+- setTimeout()
+- forEach()
+- addEventListener()
+- Buzzwords: higher order functions and callback functions
+- Higher Order Functions
+  - functions that accept other functions
+  - enhance the behavior of other functions
+- Callback Functions
+  - functions that are passed into higher order functions
