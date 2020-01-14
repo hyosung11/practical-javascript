@@ -185,3 +185,9 @@ incrementNumber();
 - view.displayTodos should use forEach
 
 ## Interlude - Understanding "this"
+- The cheatsheet https://github.com/hyosung11/cheatsheet-js
+- Case 1: In a regular function (or if you're not in a function at all), `this` points to `window`. This is the default case.
+- Case 2: When a function is called as a method, this points to the object that's on the left side of the dot.
+- Case 3: In a function that's being called as a constructor, this points to the object that the constructor is creating.
+- Case 4: When you explicitly set the value of `this` manually using `bind`, `apply`, or `call`, it's all up to you.
+- Case 5: In a callback function, apply the above rules methodically.
