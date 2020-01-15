@@ -28,7 +28,7 @@ Practical JavaScript Course from Watch and Code by Gordon Zhu
 ## Support
 - Weekly office hours on Mondays at 6PM PST
 - private Slack group for Premium Membership
-- For all its power, the computer is a harsh taskmaster. Its programs must be correct, and what we wish to say must be said accurately in every detail. —Alan Perlis
+- *For all its power, the computer is a harsh taskmaster. Its programs must be correct, and what we wish to say must be said accurately in every detail.* —Alan Perlis
 
 ## Version 1 - Arrays
 
@@ -40,7 +40,7 @@ Practical JavaScript Course from Watch and Code by Gordon Zhu
 5. It should have a way to delete a todo
 
 ## Version 2 - Functions
-1. It should have a funciton to display todos
+1. It should have a function to display todos
 2. It should have a function to add todos
 3. It should have a function to change todos
 4. It should have a function to delete todos
@@ -71,9 +71,9 @@ Practical JavaScript Course from Watch and Code by Gordon Zhu
 ## Interlude - Success is the process
 - Ability = Process * Time
 
-- How to be great at asking coding questions https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603
+- [How to be great at asking coding questions](https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603)
 
-- debugger https://www.youtube.com/watch?v=zv_aOlH8S_o&feature=youtu.be
+- [debugger](https://www.youtube.com/watch?v=zv_aOlH8S_o&feature=youtu.be)
 
 ```JavaScript
 // Debugger
@@ -106,7 +106,7 @@ incrementNumber();
 
 ## Version 6 - Thinking in Code
 
-### Requirements http://todomvc.com/examples/vanillajs/
+### Requirements [todomvc](http://todomvc.com/examples/vanillajs/)
 - .toggleAll: If everything's true, make everything false
 - .toggleAll: Otherwise, make everything true
 
@@ -176,7 +176,7 @@ incrementNumber();
 - Clicking delete should update todoList.todos and the DOM
 
 #### Event Delegation
-- What is DOM Event delegation? https://stackoverflow.com/questions/1687296/what-is-dom-event-delegation
+- [What is DOM Event delegation?](https://stackoverflow.com/questions/1687296/what-is-dom-event-delegation)
 
 ## Version 11 - Destroy all for loops
 
@@ -185,7 +185,7 @@ incrementNumber();
 - view.displayTodos should use forEach
 
 ## Interlude - Understanding "this"
-- The cheatsheet https://github.com/hyosung11/cheatsheet-js
+- The [cheatsheet](https://github.com/hyosung11/cheatsheet-js)
 - Case 1: In a regular function (or if you're not in a function at all), `this` points to `window`. This is the default case.
 - Case 2: When a function is called as a method, this points to the object that's on the left side of the dot.
 - Case 3: In a function that's being called as a constructor, this points to the object that the constructor is creating.

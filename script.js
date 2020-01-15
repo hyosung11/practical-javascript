@@ -1,4 +1,4 @@
-// Version 5 - Loops of Logic
+// Final Version
 
 const todoList = {
   todos: [],
