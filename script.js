@@ -15,12 +15,12 @@ const todoList = {
     this.todos.splice(position, 1);
   },
   toggleCompleted: function(position) {
-    var todo = this.todos[position];
+    let todo = this.todos[position];
     todo.completed = !todo.completed;
   },
   toggleAll: function() {
-    var totalTodos = this.todos.length;
-    var completedTodos = 0;
+    let totalTodos = this.todos.length;
+    let completedTodos = 0;
 
     // Get number of completed todos.
     this.todos.forEach(function(todo) {
