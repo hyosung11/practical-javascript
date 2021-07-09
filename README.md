@@ -30,14 +30,14 @@ Practical JavaScript Course from Watch and Code by Gordon Zhu
 - private Slack group for Premium Membership
 - *For all its power, the computer is a harsh taskmaster. Its programs must be correct, and what we wish to say must be said accurately in every detail.* —Alan Perlis
 
-## Version 1 - Arrays
+## Version 1 - Requirements
 
 ### Requirements
-1. It should have a place to store todos
-2. It should have a way to display todos
-3. It should have a way to add new todos
-4. It should have a way to change a todo
-5. It should have a way to delete a todo
+- [x] 1. It should have a place to store todos
+- [X] 2. It should have a way to display todos
+- [x] 3. It should have a way to add todos
+- [x] 4. It should have a way to edit a todo
+- [x] 5. It should have a way to remove a todo
 
 ## Version 2 - Functions
 1. It should have a function to display todos
@@ -191,3 +191,4 @@ incrementNumber();
 - Case 3: In a function that's being called as a constructor, this points to the object that the constructor is creating.
 - Case 4: When you explicitly set the value of `this` manually using `bind`, `apply`, or `call`, it's all up to you.
 - Case 5: In a callback function, apply the above rules methodically.
+
